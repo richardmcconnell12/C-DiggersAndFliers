@@ -26,6 +26,12 @@ namespace Animals
 
             var WalkerContainer = new WalkerContainer();
             WalkerContainer.Walkers = new List<IWalker>() { Bear, Tiger, Frog, Salamander, EarthWorm, RattleSnake };
+
+            Eagle.Fly();
+            Salamander.Swim();
+            EarthWorm.Dig();
+            Tiger.Run();
+            StingRay.Swim();
         }
     }
 }
